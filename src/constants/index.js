@@ -4,14 +4,13 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  django,
   html,
   css,
   reactjs,
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
   docker,
@@ -19,10 +18,11 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  wyvern,
+  ytclone,
+  getfit,
   threejs,
+  ecom,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +46,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "ReactJS Developer",
     icon: mobile,
   },
   {
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Django Developer",
     icon: creator,
   },
 ];
@@ -73,8 +73,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Django",
+    icon: django,
   },
   {
     name: "React JS",
@@ -91,10 +91,6 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
@@ -116,7 +112,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "ReactJS Developer",
     company_name: "Starbucks",
     icon: starbucks,
     iconBg: "#383E56",
@@ -129,13 +125,13 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
+    title: "Django Developer",
     company_name: "Tesla",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Django and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -198,16 +194,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Wyvern",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search and listen to various songs by different artists or by genre. Basically a spotify clone.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "rapidAPI",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +211,82 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: wyvern,
+    links: {
+      github: "https://github.com/heisenberg-0420/Wyvern.git",
+      netlify: "https://wyvernmusic.netlify.app/",
+    }
   },
   {
-    name: "Job IT",
+    name: "YT Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "As the name suggests, this web application is a youtube clone. It uses rapid api to fetch and play different videos and allows users to search.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "rapidAPI",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "materialUI",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: ytclone,
+    links: {
+      github: "https://github.com/heisenberg-0420/yt_clone.git",
+      netlify: "https://justanotheryt.netlify.app/",
+    }
   },
   {
-    name: "Trip Guide",
+    name: "Get Fit",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A web application that allows to search for different exercises using name of the exercise or a muscle group. It displays details of each exercise on clicking.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "rapidAPI",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "materialUI",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: getfit,
+    links: {
+      github: "https://github.com/heisenberg-0420/fitness_clone.git",
+      netlify: "https://get-fitf.netlify.app/",
+    }
+  },
+  {
+    name: "E-commerce",
+    description:
+      "A web application that allows to add items to the cart, increase and decrease the items and then processing the order. It also provides an admin panel to add or remove products on the display.",
+    tags: [
+      {
+        name: "django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecom,
+    links: {
+      github: "https://github.com/heisenberg-0420/ecom.git",
+    }
   },
 ];
 

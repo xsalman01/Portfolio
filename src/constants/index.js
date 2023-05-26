@@ -19,7 +19,6 @@ import {
   tesla,
   shopify,
   wyvern,
-  ytclone,
   getfit,
   threejs,
   ecom,
@@ -218,30 +217,6 @@ const projects = [
     }
   },
   {
-    name: "YT Clone",
-    description:
-      "As the name suggests, this web application is a youtube clone. It uses rapid api to fetch and play different videos and allows users to search.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidAPI",
-        color: "green-text-gradient",
-      },
-      {
-        name: "materialUI",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ytclone,
-    links: {
-      github: "https://github.com/heisenberg-0420/yt_clone.git",
-      netlify: "https://justanotheryt.netlify.app/",
-    }
-  },
-  {
     name: "Get Fit",
     description:
       "A web application that allows to search for different exercises using name of the exercise or a muscle group. It displays details of each exercise on clicking.",
@@ -268,7 +243,7 @@ const projects = [
   {
     name: "E-commerce",
     description:
-      "A web application that allows to add items to the cart, increase and decrease the items and then processing the order. It also provides an admin panel to add or remove products on the display.",
+      "Users can add items to the cart, increase and decrease the items and then processing the order. It also provides an admin panel to add or remove products on the display.",
     tags: [
       {
         name: "django",

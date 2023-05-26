@@ -59,7 +59,9 @@ const Works = () => {
           real-world examples of my work. Each project is briefly 
           described with links to code repositories and live demos in it. 
           It reflects my ability to solve complex problems, work with 
-          different technologies, and manage projects effectively.
+          different technologies, and manage projects effectively. 
+          You can check my projects other than those mentioned below
+          by heading over to repositories in my <span> <a href='https://github.com/heisenberg-0420' target="_blank" style={{ textDecoration: "underline" }} rel="noreferrer">github account</a></span>.
         </motion.p>
       </div>
       <div className='mt-20 flex flex-wrap gap-7'>

@@ -28,7 +28,6 @@ import tesla from "./company/tesla.png";
 
 import wyvern from "./wyvern.png";
 import getfit from "./getfit.png";
-import ytclone from "./ytclone.png";
 import ecom from "./ecom.png";
 
 export {
@@ -59,6 +58,5 @@ export {
   netlify,
   wyvern,
   getfit,
-  ytclone,
   ecom,
 };

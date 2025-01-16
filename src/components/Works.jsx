@@ -3,7 +3,7 @@
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { github, netlify } from '../assets';
+import { github } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
@@ -15,11 +15,11 @@ const ProjectCard = ({ index, name, description, tags, image, links }) => {
         <div className='relative w-full h-[230px]'>
           <img src={image} alt={name} className='w-full h-full object-cover rounded-2xl' />
           <div className='absolute inset-0 flex justify-end m-3 car-img_hover'>
-            {links.netlify ?
-              <div onClick={() => window.open(links.netlify, "_blank")}
+            {links.site ?
+              <div onClick={() => window.open(links.site.link, "_blank")}
                 className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
               >
-                <img src={netlify} alt={netlify} className='w-1/2 h-1/2 object-contain' />
+                <img src={links.site.image} alt="site" className='w-1/2 h-1/2 object-contain' />
               </div> :
               null
             }
@@ -61,7 +61,11 @@ const Works = () => {
           It reflects my ability to solve complex problems, work with 
           different technologies, and manage projects effectively. 
           You can check my projects other than those mentioned below
-          by heading over to repositories in my <span> <a href='https://github.com/heisenberg-0420' target="_blank" style={{ textDecoration: "underline" }} rel="noreferrer">github account</a></span>.
+          by heading over to repositories in my 
+         <span> </span> 
+         <a href='https://github.com/xsalman01' target="_blank" 
+            className='underline'>github account
+        </a>.
         </motion.p>
       </div>
       <div className='mt-20 flex flex-wrap gap-7'>

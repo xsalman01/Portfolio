@@ -36,11 +36,7 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>What I have done so far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience.</h2>
-        <p className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-          I have no work experience as I am a fresh developer. 
-          Below are some dummy points just to make the portfolio look good and I hope to update these points as soon as I can.
-        </p>
+        <h2 className={styles.sectionHeadText}>Work Experience</h2>
       </motion.div>
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>

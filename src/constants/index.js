@@ -1,27 +1,16 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
+  sarim,
+  teglax,
+  python,
+  nextjs,
   django,
-  html,
-  css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
-  git,
-  figma,
-  docker,
   meta,
-  starbucks,
-  tesla,
-  shopify,
-  wyvern,
-  getfit,
-  threejs,
-  ecom,
+  vercel,
+  ycdirectory,
+  livedocs,
+  restate,
 } from "../assets";
 
 export const navLinks = [
@@ -41,228 +30,159 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "NextJS",
+    icon: nextjs,
   },
   {
-    title: "ReactJS Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Django Developer",
-    icon: creator,
-  },
-];
-
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "Django",
-    icon: django,
-  },
-  {
-    name: "React JS",
+    title: "ReactJS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    title: "React Native",
+    icon: reactjs,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    title: "Django",
+    icon: django,
   },
   {
-    name: "Node JS",
+    title: "Python",
+    icon: python,
+  },
+  {
+    title: "NodeJS",
     icon: nodejs,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "ReactJS Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Software Developer",
+    company_name: "Teglax",
+    icon: teglax,
+    iconBg: "#FFFFFF",
+    date: "March 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+        `Collaborated with cross-functional teams, including designers, to deliver 
+        high-quality software solutions.`,
+        `Developed 'Alpha Vision', a web-based security camera monitoring 
+        platform with real-time activity monitoring, notifications, and secure 
+        event recordings.`,
+        `Built 'Discount Smokes', an e-commerce platform for buying and selling 
+        tobacco products, ensuring a secure and user-friendly marketplace.`,
+        `Utilized technologies such as React, Node.js, Express, Firebase,
+        MongoDB, and Nginx to develop and deploy scalable solutions.`,
     ],
   },
   {
-    title: "Django Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using Django and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "To be added Soon",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    date: "",
+    points: [],
   },
 ];
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Salman proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Salman does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png",
-  },
-  {
-    testimonial:
-      "After Salman optimized our website, our traffic increased by 50%. We truly can't thank him enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png",
+    testimonial: `I had the pleasure of working with Salman on two projects: 
+        Alpha Vision, a security camera monitoring platform, and 
+        Discount Smokes, an online tobacco shop. Salman worked as a junior 
+        developer on Discount Smokes and as a full-stack developer on 
+        Alpha Vision, consistently demonstrating strong web development skills
+        and professionalism. Their ability to adapt to project demands, deliver
+        scalable solutions, and enhance user experience was impressive.
+        From building a robust monitoring system in Alpha Vision to improving 
+        the functionality of the e-commerce platform in Discount Smokes, Salman
+        delivered exceptional results. I highly recommend them for any software
+        development role.`,
+    name: "Sarim Rayyan",
+    designation: "Co-Founder",
+    company: "Teglax",
+    image: sarim,
+    linkedIn: "https://www.linkedin.com/in/sarim-rayyan/",
+    companyLink: "https://www.linkedin.com/company/teglax/",
   },
 ];
 
 const projects = [
   {
-    name: "Wyvern",
-    description:
-      "Web-based platform that allows users to search and listen to various songs by different artists or by genre. Basically a spotify clone.",
+    name: "LiveDocs",
+    description: `A real-time live collaborative document editor that allows 
+      users to create and manage documents.`,
     tags: [
       {
-        name: "react",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidAPI",
+        name: "Clerk",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "shadcn/ui",
         color: "pink-text-gradient",
       },
     ],
-    image: wyvern,
+    image: livedocs,
     links: {
-      github: "https://github.com/heisenberg-0420/Wyvern.git",
-      netlify: "https://wyvernmusic.netlify.app/",
+      github: "https://github.com/xsalman01/live_docs",
+      site: { 
+          link: "https://dopeman-livedocs.vercel.app/",
+          image: vercel
+      },
     }
   },
   {
-    name: "Get Fit",
-    description:
-      "A web application that allows to search for different exercises using name of the exercise or a muscle group. It displays details of each exercise on clicking.",
+    name: "YC Directory",
+    description: `A web platform designed to help users discover and share 
+      information about startups.`,
     tags: [
       {
-        name: "react",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidAPI",
+        name: "nextAuth",
         color: "green-text-gradient",
       },
       {
-        name: "materialUI",
+        name: "sanity",
         color: "pink-text-gradient",
       },
     ],
-    image: getfit,
+    image: ycdirectory,
     links: {
-      github: "https://github.com/heisenberg-0420/fitness_clone.git",
-      netlify: "https://get-fitf.netlify.app/",
+      github: "https://github.com/xsalman01/yc_directory",
+      site: {
+          link: "https://yc-directory-startups.vercel.app/",
+          image: vercel
+      }
     }
   },
   {
-    name: "E-commerce",
-    description:
-      "Users can add items to the cart, increase and decrease the items and then processing the order. It also provides an admin panel to add or remove products on the display.",
+    name: "Restate",
+    description: `A mobile application that showcases a range of real estate 
+      properties available for purchase.`,
     tags: [
       {
-        name: "django",
+        name: "Expo",
         color: "blue-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "Oauth",
         color: "green-text-gradient",
       },
       {
-        name: "javaScript",
+        name: "appwrite",
         color: "pink-text-gradient",
       },
     ],
-    image: ecom,
+    image: restate,
     links: {
-      github: "https://github.com/heisenberg-0420/ecom.git",
+      github: "https://github.com/xsalman01/restate",
     }
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, experiences, testimonials, projects };

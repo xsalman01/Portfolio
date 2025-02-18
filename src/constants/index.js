@@ -61,7 +61,7 @@ const experiences = [
     company_name: "Teglax",
     icon: teglax,
     iconBg: "#FFFFFF",
-    date: "March 2024 - Present",
+    date: "March 2024 - January 2025",
     points: [
         `Collaborated with cross-functional teams, including designers, to deliver 
         high-quality software solutions.`,
@@ -76,7 +76,6 @@ const experiences = [
   },
   {
     title: "To be added Soon",
-    icon: meta,
     iconBg: "#E6DEDD",
     date: "",
     points: [],
